@@ -1,18 +1,21 @@
 .context-1{
-    margin-top: 25px;
+    margin-top: 10px;
     margin-bottom: 30px;
     margin-left: 10px;
     margin-right: 10px;
+    text-align: center;
   }
   
   .context-2{
     margin-bottom: 25px;
     margin-left: 10px;
     margin-right: 10px;
+    text-align: center;
+
   }
   
   .context-3{
-    margin-left: 10px;
+    margin-left: 30px;
     margin-right: 10px;
     margin-bottom: 30px;
   }
@@ -23,18 +26,16 @@
   
   h3 {
     font-family: 'Arial', sans-serif;
-    font-size: 1.8rem;
-    color: #444;
-    font-weight: bold;
-    margin-bottom: 15px;
+    font-size: 1.5rem;
+    color: #000000;
+    margin-bottom: 10px;
   }
   
   h4 {
     font-family: 'Arial', sans-serif;
-    font-size: 1.8rem;
-    color: #444;
-    font-weight: bold;
-    margin-bottom: 15px;
+    font-size: 1.5rem;
+    color: #000000;
+    margin-bottom: 10px;
   }
   
   h5 {
@@ -43,3 +44,21 @@
     color: #666;
     margin-bottom: 10px;
   }
+
+.container-1 {
+  background-color: rgba(255, 255, 255, 0.7); /* Fondo transparente (ajusta la opacidad según necesites) */
+  border:  1px solid black; /* Bordes de 0.5 negro */
+  padding: 20px; /* Espaciado interno */
+  border-radius: 5px; /* Bordes redondeados, ajusta según sea necesario */
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.content-card-2{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+
+}
